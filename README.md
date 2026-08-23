@@ -83,6 +83,7 @@ Provides management with a one-page summary of overall business performance.
 
 <img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/Executive%20Dashboard.png
 " />
+<img width="622" height="372" alt="Executive_dashboard" src="http://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/Executive%20Dashboard.png" />
 
 ### Key Questions
 •	How is the business performing overall?
