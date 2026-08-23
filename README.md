@@ -81,6 +81,9 @@ As new transactions are added and the data is refreshed, the connected dashboard
 ## Executive Overview
 Provides management with a one-page summary of overall business performance.
 
+<img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/Executive%20Dashboard.png
+" />
+
 ### Key Questions
 •	How is the business performing overall?
 •	Are we making money?
@@ -98,6 +101,11 @@ Gross Profit %: 21.9%
 Inventory Value: ₦26.8M
 2. May & June Dashboard — Monthly Performance
 
+<img width="622" height="372" alt="May performance Executive_dashboard" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/May%20performance%20(Executive%20dashboard).png
+" />
+<img width="622" height="372" alt="June performance Executive_dashboard" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/June%20performance%20(Executive%20dashboard).png
+" />
+
 ### Key Findings
 •	Revenue declined by 31.3% from May to June.
 •	Quantity sold declined by 28.3%.
@@ -112,6 +120,8 @@ The business remained profitable, but the decline in revenue and profit, combine
 
 This dashboard focuses on customer behaviour, sales performance, products, manufacturers and purchasing patterns.
 
+<img width="622" height="372" alt="Sales & Customer Intelligence" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/Sales%20%26%20Customers%20intelligence.png
+" />
 ### Key Questions
 •	Which customers generate the most revenue?
 •	Which products sell the most?
@@ -138,6 +148,9 @@ Quantum generated the highest manufacturer revenue at approximately ₦9.15M, re
 ## Procurement & Supplier Performance
 
 This dashboard evaluates supplier pricing, purchase volumes, supplier cost variance and potential procurement savings
+
+<img width="622" height="372" alt="Procurement & Supplier Performance" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/Procurement%20%26%20Supplier%20Performance.png
+" />
 
 ### Key Questions
 •	Which supplier provides the best value?
@@ -167,6 +180,8 @@ The estimate assumes that product quality, specifications, delivery requirements
 
 ## Product Profitability & Inventory Intelligence
 This dashboard combines product profitability with inventory performance.
+<img width="622" height="372" alt="Product Profitability & Inventory Intelligence" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/Inventory%20%26%20Product%20Profitability.png
+" />
 
 ### Key Questions
 •	Which products generate the most profit?
@@ -190,7 +205,8 @@ This indicates that M006 contributes disproportionately to profitability and may
 
 ## Inventory Intelligence
 This dashboard focuses on stock availability, inventory value, inventory turnover, slow-moving products and working-capital risk.
-
+<img width="622" height="372" alt="Inventory Intelligence" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/Stock%20inventory%20analysis.png
+" />
 ### Key Questions
 •	Which products are at risk of running out?
 •	Which products are sitting too long?
