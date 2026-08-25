@@ -3,21 +3,24 @@
 This project is an automated business intelligence and performance monitoring solution developed for a reinforcement steel business.
 The solution uses Microsoft Power BI to consolidate and analyze daily and monthly transactions across sales, customers, procurement, suppliers, inventory, expenses, profitability, and financial performance.
 The objective was to move beyond simply reporting historical numbers and build a system that helps management understand:
-<p>
+<p></p>
        •	What is happening in the business?
-•	Why is it happening?
-•	Where are the risks?
-•	Where are the cost-saving opportunities?
-•	Which products and customers are driving performance?
-•	What actions should management take?
+       •	Why is it happening?
+       •	Where are the risks?
+       •	Where are the cost-saving opportunities?
+       •	Which products and customers are driving performance?
+       •	What actions should management take?
 The Power BI model is structured to allow new transaction data to be refreshed, automatically updating the connected dashboards and business metrics
 
-</p>
+
 
 ## Business Problem
 Businesses that rely on manually prepared reports can struggle to maintain a consistent view of their daily operations.
 Sales, purchases, expenses, inventory and supplier information may exist in different records, making it difficult to quickly identify:
-•	Revenue changes
+<p>
+       
+</p>
+• Revenue changes
 •	Profitability problems
 •	Supplier pricing differences
 •	Inventory shortages
