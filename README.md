@@ -164,20 +164,21 @@ This dashboard evaluates supplier pricing, purchase volumes, supplier cost varia
 
 ### Key Findings
 * Total purchase cost: ₦53.8M
-•	Total quantity purchased: 2.9K units
-•	Supplier cost variance: approximately ₦3.3M
-•	Potential supplier savings: approximately ₦1.15M
-•	Mega Steel supplied the highest quantity at 765 units.
-•	Mega Steel recorded the highest supplier cost variance at approximately ₦1.07M.
+* Total quantity purchased: 2.9K units
+* Supplier cost variance: approximately ₦3.3M
+* Potential supplier savings: approximately ₦1.15M
+* Mega Steel supplied the highest quantity at 765 units.
+* Mega Steel recorded the highest supplier cost variance at approximately ₦1.07M.
 
 ### Supplier Savings Analysis
 
-The potential savings analysis was refined to compare supplier prices for the:
+**The potential savings analysis was refined to compare supplier prices for the:**
 
-Same manufacturer + same material size
-rather than comparing every supplier against one overall lowest price.
+Same manufacturer + same material size rather than comparing every supplier against one overall lowest price.
 This provides a more comparable and conservative estimate of the procurement opportunity.
-*Potential Opportunity*
+
+**Potential Opportunity** 
+<p></p>
 ₦1.15M estimated potential supplier savings
 The estimate assumes that product quality, specifications, delivery requirements, payment terms and other commercial conditions are comparable.
 
@@ -186,19 +187,18 @@ This dashboard combines product profitability with inventory performance.
 <img width="622" height="372" alt="Product Profitability & Inventory Intelligence" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/Inventory%20%26%20Product%20Profitability.png" />
 
 ### Key Questions
-•	Which products generate the most profit?
-•	Which products have strong margins?
-•	Which products are slow-moving?
-•	Which products are tying up capital?
-•	Which products require pricing or inventory review?
+* Which products generate the most profit?
+* Which products have strong margins?
+* Which products are slow-moving?
+* Which products are tying up capital?Which products require pricing or inventory review?
 
 ### Key Findings
-•	Overall gross profit: approximately ₦6.6M
-•	May gross profit: approximately ₦3.9M
-•	June gross profit: approximately ₦2.7M
-•	Overall stock on hand: approximately 1.5K units
-•	M012 generated the highest overall gross profit at approximately ₦671.8K.
-•	M005 had the highest inventory value at approximately ₦4.83M.
+* Overall gross profit: approximately ₦6.6M
+* May gross profit: approximately ₦3.9M
+* June gross profit: approximately ₦2.7M
+* Overall stock on hand: approximately 1.5K units
+* M012 generated the highest overall gross profit at approximately ₦671.8K.
+* M005 had the highest inventory value at approximately ₦4.83M.
 
 ### Profitability Insight
 
@@ -209,30 +209,35 @@ This indicates that M006 contributes disproportionately to profitability and may
 This dashboard focuses on stock availability, inventory value, inventory turnover, slow-moving products and working-capital risk.
 <img width="622" height="372" alt="Inventory Intelligence" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/Stock%20inventory%20analysis.png" />
 ### Key Questions
-•	Which products are at risk of running out?
-•	Which products are sitting too long?
-•	Which products require replenishment?
-•	Which products are tying up cash?
+* Which products are at risk of running out?
+* Which products are sitting too long?
+* Which products require replenishment?
+* Which products are tying up cash?
 
-*Slow-Moving Inventory*
-*Product	Inventory Value	Days in Stock*
-M005	₦4.83M	245 days
-M020	₦1.30M	297 days
-M002	₦1.39M	195 days
-M007	₦1.17M	372 days
+**Slow-Moving Inventory**
+| Product | Inventory Value | Days in Stock |
+| ------- | --------------: | ------------: |
+| M005    |          ₦4.83M |      245 days |
+| M020    |          ₦1.30M |      297 days |
+| M002    |          ₦1.39M |      195 days |
+| M007    |          ₦1.17M |      372 days |
+
 
 ### Key Insight
-M005 had the highest inventory value at ₦4.83M.
+M005 had the highest inventory value at ₦4.83M. 
 Of the 296 units purchased, only 59 units were sold, indicating that a significant amount of capital may be tied up in slow-moving inventory.
-Stock Risk
+
+**Stock Risk**
 Several materials recorded negative stock positions.
+
 For this sample dataset, the negative balances represent situations where recorded sales exceeded recorded purchases, such as stock being sourced temporarily from neighbouring businesses.
+
 In a real business environment, negative stock would require investigation because it could indicate:
-•	Missing purchase records
-•	Timing differences
-•	Unrecorded stock movements
-•	Borrowed inventory
-•	Inventory control issues
+* Missing purchase records
+* Timing differences
+* Unrecorded stock movements
+* Borrowed inventory
+* Inventory control issues
 
 ## Key Business Insights
 The analysis revealed several important business signals:
@@ -271,34 +276,38 @@ Products such as M006 and M012 should be evaluated for increased inventory avail
 ## Business Solution Impact
 The project transforms raw transaction data into an automated decision-support system.
 Instead of manually preparing recurring reports, management can refresh the underlying transaction data and monitor:
+
 Sales → Customers → Procurement → Suppliers → Inventory → Profitability → Financial Performance
+
 This creates a centralized view of the business and makes it easier to identify changes, risks and opportunities as new transactions are recorded.
 
 ## What This Project Demonstrates
 This project demonstrates my ability to:
-•	Clean and transform business data
-•	Build relational data models
-•	Develop DAX measures
-•	Create automated Power BI dashboards
-•	Analyze sales performance
-•	Analyze customer behaviour
-•	Evaluate supplier performance
-•	Perform procurement cost analysis
-•	Identify potential cost savings
-•	Analyze inventory performance
-•	Evaluate product profitability
-•	Monitor financial performance
-•	Translate data into business recommendations
+* Clean and transform business data
+* Build relational data models
+* Develop DAX measures
+* Create automated Power BI dashboards
+* Analyze sales performance
+* Analyze customer behaviour
+* Evaluate supplier performance
+* Perform procurement cost analysis
+* Identify potential cost savings
+* Analyze inventory performance
+* Evaluate product profitability
+* Monitor financial performance
+* Translate data into business recommendations
 
 ## Conclusion
 This project demonstrates how data analytics can be transformed into a practical business intelligence solution.
 By combining automated reporting with sales, customer, procurement, supplier, inventory and financial analysis, the solution provides management with a continuous view of business performance.
+
 The analysis moved from:
 “What happened?”
 to:
 “Why did it happen?”
 and finally:
 “What should the business do about it?”
+
 The ultimate goal was to build more than a dashboard — it was to create a reusable reporting and decision-support system that helps a business monitor performance, identify risks, uncover opportunities and make better decisions from its data.
 
 ## Contact
