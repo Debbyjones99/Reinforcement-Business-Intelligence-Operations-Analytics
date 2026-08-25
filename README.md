@@ -4,6 +4,7 @@ This project is an automated business intelligence and performance monitoring so
 The solution uses Microsoft Power BI to consolidate and analyze daily and monthly transactions across sales, customers, procurement, suppliers, inventory, expenses, profitability, and financial performance.
 The objective was to move beyond simply reporting historical numbers and build a system that helps management understand:
 <p></p>
+
        •	What is happening in the business?
        •	Why is it happening?
        •	Where are the risks?
@@ -17,17 +18,16 @@ The Power BI model is structured to allow new transaction data to be refreshed, 
 ## Business Problem
 Businesses that rely on manually prepared reports can struggle to maintain a consistent view of their daily operations.
 Sales, purchases, expenses, inventory and supplier information may exist in different records, making it difficult to quickly identify:
-<p>
-       
-</p>
-• Revenue changes
-•	Profitability problems
-•	Supplier pricing differences
-•	Inventory shortages
-•	Slow-moving stock
-•	Customer concentration
-•	Procurement opportunities
-•	Working-capital risks
+<p></p>
+
+* Revenue changes
+* Profitability problems
+* Supplier pricing differences
+* Inventory shortages
+* Slow-moving stock
+* Customer concentration
+* Procurement opportunities
+* Working-capital risks
 This project addresses this problem by creating a centralized and automated reporting solution for ongoing business monitoring.
 
 ## Business Objectives 
@@ -45,44 +45,44 @@ The solution was designed to help management:
 
 ## Automated Reporting Workflow
 
-Daily Transactions
-       ↓
-Sales / Purchases / Expenses / Inventory Data
-       ↓
-Data Cleaning & Transformation
-       ↓
-Power BI Data Model
-       ↓
-DAX Measures & Business Logic
-       ↓
-Automated Dashboard Refresh
-       ↓
-Daily & Monthly Performance Monitoring
-       ↓
-Business Insights
-       ↓
-Management Decisions
+
+       •	Daily Transactions
+                       ↓
+       •	Sales / Purchases / Expenses / Inventory Data
+                       ↓
+       •	Data Cleaning & Transformation
+                       ↓      
+       •	Power BI Data Model
+                       ↓
+       •	DAX Measures & Business Logic
+                       ↓
+       •	Automated Dashboard Refresh
+                       ↓
+       •	Daily & Monthly Performance Monitoring
+                       ↓
+       •	Management Decisions
+       
 <p>
-  
 </p>
 The solution is designed as a repeatable reporting framework, rather than a one-time analysis.
 As new transactions are added and the data is refreshed, the connected dashboards and measures update accordingly.
 
 ## Tools & Technologies
 
-•	Microsoft Power BI
-•	DAX
-•	Power Query
-•	Microsoft Excel
-•	Data Cleaning & Transformation
-•	Data Modeling
-•	Business Intelligence
-•	Procurement Analytics
-•	Inventory Analytics
-•	Customer Analytics
-•	Financial Analysis
+* Microsoft Power BI
+* DAX
+* Power Query
+* Microsoft Excel
+* Data Cleaning & Transformation
+* Data Modeling
+* Business Intelligence
+* Procurement Analytics
+* Inventory Analytics
+* Customer Analytics
+* Financial Analysis
 
 ## Dataset
+<a href=https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/tree/main/Datasets> Reinforcement-Business-Intelligence Dataset</a>
 
 ## Executive Overview
 Provides management with a one-page summary of overall business performance.
@@ -99,11 +99,11 @@ Provides management with a one-page summary of overall business performance.
 1. Overall Dashboard — May & June
    
 Key Findings
-Revenue: ₦30.3M
-Quantity Sold: 1.4K
-Net Profit: ₦4.9M
-Gross Profit %: 21.9%
-Inventory Value: ₦26.8M
+* Revenue: ₦30.3M
+* Quantity Sold: 1.4K
+* Net Profit: ₦4.9M
+* Gross Profit %: 21.9%
+* Inventory Value: ₦26.8M
 2. May & June Dashboard — Monthly Performance
 * May 
 <img width="622" height="372" alt="May performance Executive_dashboard" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/May%20performance%20(Executive%20dashboard).png" />
@@ -111,12 +111,12 @@ Inventory Value: ₦26.8M
 <img width="622" height="372" alt="June performance Executive_dashboard" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/June%20performance%20(Executive%20dashboard).png" />
 
 ### Key Findings
-•	Revenue declined by 31.3% from May to June.
-•	Quantity sold declined by 28.3%.
-•	Net profit declined by 35.1%.
-•	Gross margin remained relatively stable, increasing from 21.8% to 21.9%.
-•	Expense ratio increased from 5.4% to 6.4%.
-•	Inventory risk remained significant, with multiple materials reaching critical or negative stock positions.
+* Revenue declined by 31.3% from May to June.
+* Quantity sold declined by 28.3%.
+* Net profit declined by 35.1%.
+* Gross margin remained relatively stable, increasing from 21.8% to 21.9%.
+* Expense ratio increased from 5.4% to 6.4%.
+* Inventory risk remained significant, with multiple materials reaching critical or negative stock positions.
 ### Executive Takeaway
 The business remained profitable, but the decline in revenue and profit, combined with an increasing expense ratio and inventory risk, requires management attention.
 
@@ -125,28 +125,29 @@ The business remained profitable, but the decline in revenue and profit, combine
 This dashboard focuses on customer behaviour, sales performance, products, manufacturers and purchasing patterns.
 
 <img width="622" height="372" alt="Sales & Customer Intelligence" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/Sales%20%26%20Customers%20intelligence.png" />
+
 ### Key Questions
-•	Which customers generate the most revenue?
-•	Which products sell the most?
-•	Which products generate the most revenue?
-•	What are customers buying?
-•	How much does the average customer order?
-•	Which manufacturers and sizes drive sales?
+* Which customers generate the most revenue?
+* Which products sell the most?
+* Which products generate the most revenue?
+* What are customers buying?
+* How much does the average customer order?
+* Which manufacturers and sizes drive sales?
 
 ### Key Findings
-Metric	Overall	May	June
-Quantity Sold	1.4K	831	596
-AOV	₦151.52K	₦158.9K	₦141.87K
-Average Selling Price	₦21.24K	₦21.61K	₦20.71K
+| Metric                |  Overall |     May |     June |
+| --------------------- | -------: | ------: | -------: |
+| Quantity Sold         |     1.4K |     831 |      596 |
+| AOV                   | ₦151.52K | ₦158.9K | ₦141.87K |
+| Average Selling Price |  ₦21.24K | ₦21.61K |  ₦20.71K |
 
-*Customer Insight*
-Customer C009 generated the highest overall revenue at approximately ₦1.63M.
-Product Insight
-M006 generated the highest overall product revenue at approximately ₦3.13M.
-Size Insight
-The 25mm reinforcement size generated the highest revenue at approximately ₦9.08M.
-Manufacturer Insight
-Quantum generated the highest manufacturer revenue at approximately ₦9.15M, representing approximately 30.2% of total revenue.
+
+**Customer Insight**: Customer C009 generated the highest overall revenue at approximately ₦1.63M.
+
+**Product Insight**: M006 generated the highest overall product revenue at approximately ₦3.13M.
+
+**Size Insight**: The 25mm reinforcement size generated the highest revenue at approximately ₦9.08M.
+**Manufacturer Insight**: Quantum generated the highest manufacturer revenue at approximately ₦9.15M, representing approximately 30.2% of total revenue.
 
 ## Procurement & Supplier Performance
 
@@ -155,14 +156,14 @@ This dashboard evaluates supplier pricing, purchase volumes, supplier cost varia
 <img width="622" height="372" alt="Procurement & Supplier Performance" src="https://github.com/Debbyjones99/Reinforcement-Business-Intelligence-Operations-Analytics/blob/main/Dashboard%20Screenshots/Procurement%20%26%20Supplier%20Performance.png" />
 
 ### Key Questions
-•	Which supplier provides the best value?
-•	Which supplier is overpriced?
-•	Which supplier supplies the largest quantity?
-•	Are suppliers charging above standard cost?
-•	How much could potentially be saved by switching suppliers?
+* Which supplier provides the best value?
+* Which supplier is overpriced?
+* Which supplier supplies the largest quantity?
+* Are suppliers charging above standard cost?
+*  How much could potentially be saved by switching suppliers?
 
 ### Key Findings
-•	Total purchase cost: ₦53.8M
+* Total purchase cost: ₦53.8M
 •	Total quantity purchased: 2.9K units
 •	Supplier cost variance: approximately ₦3.3M
 •	Potential supplier savings: approximately ₦1.15M
